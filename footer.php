@@ -4,7 +4,7 @@
  *
  * Contains the closing of the #content div and all content after
  *
- * @package amtweddings
+ * @package amt-travel-insiders
  */
 ?>
 
@@ -17,7 +17,7 @@
 <?php dynamic_sidebar( 'footer-left' ); ?></div>
 <div class="col-sm-6 col-md-6 col-lg-3 text-center"><?php dynamic_sidebar( 'footer-sidebar-right' ); ?></div>
 <div class="col-sm-6 col-md-6 col-lg-3">
-	<?php if (has_nav_menu('footer-menu', 'amtweddings')) { ?>
+	<?php if (has_nav_menu('footer-menu', 'amt-travel-insiders')) { ?>
 	<nav>
 	<h4>Explore</h4>
 	<?php wp_nav_menu(array(
@@ -30,7 +30,7 @@
 	</nav>
 	<?php } ?></div>
 <div class="copy-text col-sm-6 col-md-6 col-lg-3 text-center">
-	<p class="copy-text">&copy; <?php _e('All Rights Reserved', 'amtweddings'); ?> <?php echo date('Y'); ?> - <a href="<?php echo home_url(); ?>/" title="<?php bloginfo('name'); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
+	<p class="copy-text">&copy; <?php _e('All Rights Reserved', 'amt-travel-insiders'); ?> <?php echo date('Y'); ?> - <a href="<?php echo home_url(); ?>/" title="<?php bloginfo('name'); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
 </div>
 		</div><!-- .containr -->
 </footer><!-- #colophon -->

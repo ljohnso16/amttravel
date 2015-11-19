@@ -1,13 +1,13 @@
 <?php
 /**
- * amtweddings functions and definitions.
+ * amt-travel-insiders functions and definitions.
  *
  * @link https://codex.wordpress.org/Functions_File_Explained
  *
- * @package amtweddings
+ * @package amt-travel-insiders
  */
 
-if ( ! function_exists( 'amtweddings_setup' ) ) :
+if ( ! function_exists( 'amt-travel-insiders_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -15,14 +15,14 @@ if ( ! function_exists( 'amtweddings_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function amtweddings_setup() {
+function amt-travel-insiders_setup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on amtweddings, use a find and replace
-	 * to change 'amtweddings' to the name of your theme in all the template files
+	 * If you're building a theme based on amt-travel-insiders, use a find and replace
+	 * to change 'amt-travel-insiders' to the name of your theme in all the template files
 	 */
-	load_theme_textdomain( 'amtweddings', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'amt-travel-insiders', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -50,9 +50,9 @@ function amtweddings_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 register_nav_menus( array(
-		'primary' => __( 'Primary Menu', 'amtweddings' ),
-        'secondary' => __( 'Secondary Menu', 'amtweddings' ),
-        'footer-menu' => __( 'Footer Explore Menu', 'amtweddings' ),
+		'primary' => __( 'Primary Menu', 'amt-travel-insiders' ),
+        'secondary' => __( 'Secondary Menu', 'amt-travel-insiders' ),
+        'footer-menu' => __( 'Footer Explore Menu', 'amt-travel-insiders' ),
 	) );
 
 	/*
@@ -80,13 +80,13 @@ register_nav_menus( array(
 	// ) );
 
 	// Set up the WordPress core custom background feature.
-	// add_theme_support( 'custom-background', apply_filters( 'amtweddings_custom_background_args', array(
+	// add_theme_support( 'custom-background', apply_filters( 'amt-travel-insiders_custom_background_args', array(
 	// 	'default-color' => 'ffffff',
 	// 	'default-image' => '',
 	// ) ) );
 }
-endif; // amtweddings_setup
-add_action( 'after_setup_theme', 'amtweddings_setup' );
+endif; // amt-travel-insiders_setup
+add_action( 'after_setup_theme', 'amt-travel-insiders_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -95,19 +95,19 @@ add_action( 'after_setup_theme', 'amtweddings_setup' );
  *
  * @global int $content_width
  */
-function amtweddings_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'amtweddings_content_width', 640 );
+function amt-travel-insiders_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'amt-travel-insiders_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'amtweddings_content_width', 0 );
+add_action( 'after_setup_theme', 'amt-travel-insiders_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function amtweddings_widgets_init() {
+function amt-travel-insiders_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'amtweddings' ),
+		'name'          => esc_html__( 'Sidebar', 'amt-travel-insiders' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
 	'before_widget' => '<aside id="%1$s" class="text-center center-block widget %2$s">',
@@ -116,7 +116,7 @@ function amtweddings_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 	register_sidebar( array(
-		'name'          => __( 'Footer Sidebar Left', 'amtweddings' ),
+		'name'          => __( 'Footer Sidebar Left', 'amt-travel-insiders' ),
 		'id'            => 'footer-left',
 		'description'   => '',
 		'before_widget' => '<div id="help-text">',
@@ -125,7 +125,7 @@ function amtweddings_widgets_init() {
 		'after_title'   => '',
 	) );
 	register_sidebar( array(
-		'name'          => __( 'Footer Sidebar Right', 'amtweddings' ),
+		'name'          => __( 'Footer Sidebar Right', 'amt-travel-insiders' ),
 		'id'            => 'footer-sidebar-right',
 		'description'   => '',
 		'before_widget' => '',
@@ -134,7 +134,7 @@ function amtweddings_widgets_init() {
 		'after_title'   => '',
 	) );
 	register_sidebar( array(
-		'name'          => __( 'Home Page', 'amtweddings' ),
+		'name'          => __( 'Home Page', 'amt-travel-insiders' ),
 		'id'                => 'home-sidebar-area',
 		'description'   => '',
 		'before_widget' => '',
@@ -143,7 +143,7 @@ function amtweddings_widgets_init() {
 		'after_title'   => '',
 	) );
 	register_sidebar( array(
-		'name'          => __( 'Home Page Mobile', 'amtweddings' ),
+		'name'          => __( 'Home Page Mobile', 'amt-travel-insiders' ),
 		'id'                => 'home-sidebar-area-mobile',
 		'description'   => '',
 		'before_widget' => '',
@@ -152,29 +152,29 @@ function amtweddings_widgets_init() {
 		'after_title'   => '',
 	) );
 }
-add_action( 'widgets_init', 'amtweddings_widgets_init' );
+add_action( 'widgets_init', 'amt-travel-insiders_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
-function amtweddings_scripts() {
-	wp_enqueue_style( 'amtweddings-style-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(),'3.3.5', 'all');
+function amt-travel-insiders_scripts() {
+	wp_enqueue_style( 'amt-travel-insiders-style-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(),'3.3.5', 'all');
 	// wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.min.css', array(), '4.4.0', 'all' );
-	wp_enqueue_style( 'amtweddings-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'amt-travel-insiders-style', get_stylesheet_uri() );
 
 
-	wp_enqueue_script( 'amtweddings-js-bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '3.3.5', true );
-wp_enqueue_script( 'amtweddings-js-bigtext', get_template_directory_uri() . '/js/jquery.fittext.js', array('jquery'), '1.2', true );
-wp_enqueue_script( 'amtweddings-js-bigtext', get_template_directory_uri() . '/js/bigtext.js', array('jquery'), '1.2', true );
-	wp_enqueue_script( 'amtweddings-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
-	// wp_enqueue_script( 'amtweddings-js-fittext', get_template_directory_uri() . '/js/jquery.fittext.js', array('jquery'), '1.8', true );
-wp_enqueue_script( 'amtweddings-js-script', get_template_directory_uri() . '/js/script.js', array('jquery'), '1.0', true );
+	wp_enqueue_script( 'amt-travel-insiders-js-bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '3.3.5', true );
+wp_enqueue_script( 'amt-travel-insiders-js-bigtext', get_template_directory_uri() . '/js/jquery.fittext.js', array('jquery'), '1.2', true );
+wp_enqueue_script( 'amt-travel-insiders-js-bigtext', get_template_directory_uri() . '/js/bigtext.js', array('jquery'), '1.2', true );
+	wp_enqueue_script( 'amt-travel-insiders-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	// wp_enqueue_script( 'amt-travel-insiders-js-fittext', get_template_directory_uri() . '/js/jquery.fittext.js', array('jquery'), '1.8', true );
+wp_enqueue_script( 'amt-travel-insiders-js-script', get_template_directory_uri() . '/js/script.js', array('jquery'), '1.0', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		//wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'amtweddings_scripts' );
+add_action( 'wp_enqueue_scripts', 'amt-travel-insiders_scripts' );
 function remove_img_attr ($html) {
     return preg_replace('/(alt|width|height)="\d+"\s/', "", $html);
 }
