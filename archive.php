@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package amt-travel-insiders
+ * @package travel_insiders
  */
 
 get_header(); ?>

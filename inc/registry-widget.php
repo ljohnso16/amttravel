@@ -18,8 +18,8 @@ class wedding_registry_widget extends WP_Widget {
 	function __construct() {
 		parent::__construct(
 			'wedding_registry_widget', // Base ID
-			__('Wedding Registry Widget', 'amtweddings'), // Name
-			array( 'description' => __( 'List of recent AMT Wedding Registries', 'amtweddings' ), ) // Args
+			__('Wedding Registry Widget', 'travel_insiders'), // Name
+			array( 'description' => __( 'List of recent AMT Wedding Registries', 'travel_insiders' ), ) // Args
 		);
 	}
 	/**

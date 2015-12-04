@@ -9,15 +9,14 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package amt-travel-insiders
+ * @package travel_insiders
  */
 
 get_header(); ?>
 <div class="container">
 	<div class="row">
 	<div id="primary" class="col-sm-12 col-xs-12 col-md-9 col-lg-9">
-		<main id="" class="site-main" role="main">
-
+		<main class="site-main">
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
@@ -33,6 +32,5 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

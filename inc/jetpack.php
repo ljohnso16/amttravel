@@ -4,28 +4,28 @@
  *
  * @link https://jetpack.me/
  *
- * @package amtweddings
+ * @package travel_insiders
  */
 
 /**
  * Add theme support for Infinite Scroll.
  * See: https://jetpack.me/support/infinite-scroll/
  */
-function amtweddings_jetpack_setup() {
+function travel_insiders_jetpack_setup() {
 	add_theme_support( 'infinite-scroll', array(
 		'container' => 'main',
-		'render'    => 'amtweddings_infinite_scroll_render',
+		'render'    => 'travel_insiders_infinite_scroll_render',
 		'footer'    => 'page',
 	) );
-} // end function amtweddings_jetpack_setup
-add_action( 'after_setup_theme', 'amtweddings_jetpack_setup' );
+} // end function travel_insiders_jetpack_setup
+add_action( 'after_setup_theme', 'travel_insiders_jetpack_setup' );
 
 /**
  * Custom render function for Infinite Scroll.
  */
-function amtweddings_infinite_scroll_render() {
+function travel_insiders_infinite_scroll_render() {
 	while ( have_posts() ) {
 		the_post();
 		get_template_part( 'template-parts/content', get_post_format() );
 	}
-} // end function amtweddings_infinite_scroll_render
+} // end function travel_insiders_infinite_scroll_render
