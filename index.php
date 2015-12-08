@@ -120,7 +120,7 @@ get_header(); ?>
 <div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3">
 	<div id="location-1" class="location-item">
 		<div class="location-text-content">
-			<ul>
+			<ul class="hidden">
 				<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/africa/egypt">egypt</a></li>
 				<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/africa/kenya">kenya</a></li>
 				<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/africa/morocco">morocco</a></li>
@@ -133,7 +133,7 @@ get_header(); ?>
 	</div>
 	<div id="location-5" class="location-item">
 	<div class="location-text-content">
-		<ul>
+		<ul class="hidden">
 			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-america/argentina">argentina</a></li>
 			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-america/brazil">brazil</a></li>
 			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-america/chile">chile</a></li>
@@ -145,7 +145,7 @@ get_header(); ?>
 <div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3">
 	<div id="location-2" class="location-item">
 		<div class="location-text-content">
-			<ul>
+			<ul class="hidden">
 				<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/asia/bali">bali</a></li>
 				<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/asia/cambodia">cambodia</a></li>
 				<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/asia/china">china</a></li>
@@ -163,7 +163,7 @@ get_header(); ?>
 	</div>
 	<div id="location-6" class="location-item">
 	<div class="location-text-content">
-		<ul>
+		<ul class="hidden">
 			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/central-america/costa-rica">costa rica</a></li>
 			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/central-america/dominican-republic">dominican republic</a></li>
 			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/central-america/guatemala">guatemala</a></li>
@@ -174,7 +174,7 @@ get_header(); ?>
 <div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3">
 	<div id="location-3" class="location-item">
 		<div class="location-text-content">
-			<ul>
+			<ul class="hidden">
 				<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/europe/austria">austria</a></li>
 				<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/europe/czech-republic">czech republic</a></li>
 				<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/europe/croatia">croatia</a></li>
@@ -199,7 +199,7 @@ get_header(); ?>
 	</div>
 	<div id="location-7" class="location-item">
 	<div class="location-text-content">
-		<ul>
+		<ul class="hidden">
 			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-pacific/antarctica">antarctica</a></li>
 			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-pacific/australia">australia</a></li>
 			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-pacific/fiji">fiji</a></li>
@@ -213,7 +213,7 @@ get_header(); ?>
 <div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3">
 	<div id="location-4" class="location-item">
 	<div class="location-text-content">
-		<ul>
+		<ul class="hidden">
 			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/alaska">alaska</a></li>
 			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/canada">canada</a></li>
 			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/california/los-angeles">los angeles</a></li>
@@ -230,7 +230,7 @@ get_header(); ?>
 </div>
 	<div id="location-8" class="location-item">
 	<div class="location-text-content">
-		<ul>
+		<ul class="hidden">
 	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/alaska">alaska</a></li>
 	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/canada">canada</a></li>
 	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/california/los-angeles">los angeles</a></li>
