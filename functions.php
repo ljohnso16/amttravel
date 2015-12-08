@@ -158,12 +158,12 @@ add_action( 'widgets_init', 'travel_insiders_widgets_init' );
  * Enqueue scripts and styles.
  */
 function travel_insiders_scripts() {
-	wp_enqueue_style( 'travel_insiders-style-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(),'3.3.5', 'all');
+	wp_enqueue_style( 'travel_insiders-style-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(),'3.0.3', 'all');
 	// wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.min.css', array(), '4.4.0', 'all' );
 	wp_enqueue_style( 'travel_insiders-style', get_stylesheet_uri() );
 
 
-	wp_enqueue_script( 'travel_insiders-js-bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '3.3.5', true );
+	wp_enqueue_script( 'travel_insiders-js-bootstrap', get_template_directory_uri() . '/js/hacked-bootstrap.js', array('jquery'), '3.3.5', true );
 wp_enqueue_script( 'travel_insiders-js-bigtext', get_template_directory_uri() . '/js/jquery.fittext.js', array('jquery'), '1.2', true );
 wp_enqueue_script( 'travel_insiders-js-bigtext', get_template_directory_uri() . '/js/bigtext.js', array('jquery'), '1.2', true );
 	wp_enqueue_script( 'travel_insiders-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
@@ -222,6 +222,10 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load Bootstrap Menu.
  */
 require get_template_directory() . '/inc/bootstrap-walker.php';
+/**
+ * Load Bootstrap HACKED Menu.
+ */
+require get_template_directory() . '/inc/wp-bootstrap-navwalker.php';
 /**
  * Load widgets
  */

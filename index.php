@@ -114,10 +114,10 @@ get_header(); ?>
 			<p class="video_title_desc">Click the play button now.</p>
 			<iframe src="http://www.youtube.com/embed/AiEsglBX_v8?&amp;showinfo=1modestbranding=1&amp;autohide=0&amp;controls=1&amp;hd=1&amp;rel=0"></iframe>
 		</div>
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg12">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
 	<h4 class="text-center choose-title">Choose a location to speak with your travel insider</h4>
 </div>
-<div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3">
+<div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3 center-block">
 	<div id="location-1" class="location-item">
 		<div class="location-text-content">
 			<ul class="hidden">
@@ -142,7 +142,7 @@ get_header(); ?>
 	</div>
 </div>
 </div>
-<div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3">
+<div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3 text-center">
 	<div id="location-2" class="location-item">
 		<div class="location-text-content">
 			<ul class="hidden">
@@ -171,7 +171,7 @@ get_header(); ?>
 	</div>
 </div>
 </div>
-<div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3">
+<div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3  text-center">
 	<div id="location-3" class="location-item">
 		<div class="location-text-content">
 			<ul class="hidden">
@@ -210,7 +210,7 @@ get_header(); ?>
 	</div>
 </div>
 </div>
-<div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3">
+<div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3  text-center">
 	<div id="location-4" class="location-item">
 	<div class="location-text-content">
 		<ul class="hidden">

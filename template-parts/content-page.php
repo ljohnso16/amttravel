@@ -6,12 +6,15 @@
  *
  * @package travel_insiders
  */
+ $header_image = get_post_meta($post->ID, 'Continent Header Image', true);
 
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header text-center">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="entry-title">', '</h1>' );
+if(!empty($header_image))echo '<img class="img-responsive" src="'.$header_image.'">';
+?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

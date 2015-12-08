@@ -35,18 +35,16 @@
 
 				<div class="navbar-collapse collapse navbar-responsive-collapse">
 					<?php
-
-					$args = array(
-						'theme_location' => 'primary',
-						'depth'      => 3,
-						'container'  => false,
-						'menu_class'     => 'nav navbar-nav navbar-left',
-						'walker'     => new Bootstrap_Walker_Nav_Menu()
-						);
-
-					if (has_nav_menu('primary')) {
-						wp_nav_menu($args);
-					}
+					wp_nav_menu( array(
+							'menu'              => 'primary',
+							'theme_location'    => 'primary',
+							'depth'             => 3,
+							'container'         => '',
+							'container_class'   => '',
+							'menu_class'        => 'nav navbar-nav navbar-left',
+							'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+							'walker'            => new wp_bootstrap_navwalker())
+					);
 
 					?>
 <div class="pull-right" id="call-phonenumber">
