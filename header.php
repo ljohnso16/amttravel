@@ -38,7 +38,7 @@
 
 					$args = array(
 						'theme_location' => 'primary',
-						'depth'      => 2,
+						'depth'      => 3,
 						'container'  => false,
 						'menu_class'     => 'nav navbar-nav navbar-left',
 						'walker'     => new Bootstrap_Walker_Nav_Menu()
@@ -66,24 +66,19 @@
 <div id="topslider" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active">
-		<img src="<?php echo get_template_directory_uri();?>/img/heroslide1-min-min.jpg" alt="slide">
+    <div class="item active" id="item-1">
+		<img src="<?php echo get_template_directory_uri();?>/img/header.jpg" alt="slide">
     </div>
 
-    <div class="item">
-		<img src="<?php echo get_template_directory_uri();?>/img/heroslide2-min-min.jpg" alt="slide">
+    <div class="item" id="item-2">
+		<img src="<?php echo get_template_directory_uri();?>/img/header2.jpg" alt="slide">
     </div>
 
-    <div class="item">
-		<img src="<?php echo get_template_directory_uri();?>/img/heroslide3-min-min.jpg" alt="slide">
+    <div class="item" id="item-3">
+		<img src="<?php echo get_template_directory_uri();?>/img/header3.jpg" alt="slide">
     </div>
 
-    <div class="item">
-		<img src="<?php echo get_template_directory_uri();?>/img/heroslide4-min-min.jpg" alt="slide">
-    </div>
-    <div class="item">
-		<img src="<?php echo get_template_directory_uri();?>/img/heroslide5-min-min.jpg" alt="slide">
-    </div>
+
   </div>
 
   <!-- Left and right controls -->
@@ -113,7 +108,7 @@
 
 					$args = array(
 						'theme_location' => 'secondary',
-						'depth'      => 2,
+						'depth'      => 3,
 						'container'  => false,
 						'menu_class'     => 'nav navbar-nav navbar-center',
 						'walker'     => new Bootstrap_Walker_Nav_Menu()

@@ -808,6 +808,18 @@ height: 45px;
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+
+
+
+	div#item-1 {
+	    margin-top: -182px;
+	}
+	div#item-2 {
+	    margin-top: -225px;
+	}
+	div#item-3 {
+	    margin-top: -578px;
+	}
 	.header-logo{
 	max-height: 136px;
 	width: 50%;
@@ -1238,4 +1250,48 @@ color:#A5A5A5;
 }
 .home-items-text10 {
     max-width: 620px;
-    font-size: 1.2em;}
+    font-size: 1.2em;
+}
+#location-1 {
+	background: url('img/destination2.jpg') no-repeat center;
+}
+#location-2 {
+	background: url('img/destination3.jpg') no-repeat center;
+}
+#location-3 {
+	background: url('img/destination5.jpg') no-repeat center;
+}
+#location-4 {
+	background: url('img/destination6.jpg') no-repeat center;
+}
+#location-5 {
+	background: url('img/destination8.jpg') no-repeat center;
+}
+#location-6 {
+	background: url('img/destination4.jpg') no-repeat center;
+}
+#location-7 {
+	background: url('img/destination7.jpg') no-repeat center;
+}
+#location-8 {
+	background: url('img/destination1.jpg') no-repeat center;
+}
+.location-text-content a,.location-text-content a:hover,.location-text-content a:visited {
+    color:#fff;
+		text-transform:capitalize;
+}
+.location-item{
+	width: 304px;
+	height: 304px;
+}
+.location-text-content ul{
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-count: 2;
+	-moz-column-gap: 5px;
+	-webkit-column-gap: 5px;
+	column-gap: 5px;
+	text-align: left;
+	list-style-type: none;
+    padding-top: 10px;
+}
