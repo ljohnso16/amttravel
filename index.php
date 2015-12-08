@@ -133,7 +133,12 @@ get_header(); ?>
 	</div>
 	<div id="location-5" class="location-item">
 	<div class="location-text-content">
-
+		<ul>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-america/argentina">argentina</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-america/brazil">brazil</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-america/chile">chile</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-america/peru">peru</a></li>
+		</ul>
 	</div>
 </div>
 </div>
@@ -158,7 +163,11 @@ get_header(); ?>
 	</div>
 	<div id="location-6" class="location-item">
 	<div class="location-text-content">
-
+		<ul>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/central-america/costa-rica">costa rica</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/central-america/dominican-republic">dominican republic</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/central-america/guatemala">guatemala</a></li>
+		</ul>
 	</div>
 </div>
 </div>
@@ -190,19 +199,50 @@ get_header(); ?>
 	</div>
 	<div id="location-7" class="location-item">
 	<div class="location-text-content">
-
+		<ul>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-pacific/antarctica">antarctica</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-pacific/australia">australia</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-pacific/fiji">fiji</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-pacific/new-zealand">new zealand</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-pacific/tahiti">tahiti</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-pacific/tonga">tonga</a></li>
+		</ul>
 	</div>
 </div>
 </div>
 <div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3">
 	<div id="location-4" class="location-item">
 	<div class="location-text-content">
-
+		<ul>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/alaska">alaska</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/canada">canada</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/california/los-angeles">los angeles</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/california/monterey">monterey bay</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/san-francisco-bay-area">san francisco</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/san-simeon-and-cambria">san simeon</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/santa-barbara">santa barbara</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/sonoma-and-napa-valley">sonoma | napa</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/florida">florida</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/hawaii">hawaii</a></li>
+			<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/mexico">mexico</a></li>
+		</ul>
 	</div>
 </div>
 	<div id="location-8" class="location-item">
 	<div class="location-text-content">
-
+		<ul>
+	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/alaska">alaska</a></li>
+	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/canada">canada</a></li>
+	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/california/los-angeles">los angeles</a></li>
+	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/california/monterey">monterey bay</a></li>
+	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/san-francisco-bay-area">san francisco</a></li>
+	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/san-simeon-and-cambria">san simeon</a></li>
+	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/santa-barbara">santa barbara</a></li>
+	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/sonoma-and-napa-valley">sonoma | napa</a></li>
+	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/florida">florida</a></li>
+	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/hawaii">hawaii</a></li>
+	<li><a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/mexico">mexico</a></li>
+</ul>
 	</div>
 </div>
 </div>
