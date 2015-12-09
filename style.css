@@ -1347,10 +1347,10 @@ margin:auto;
 
 /*BOOTSTRAP OVERIDE ALOWING FOR 3RD ROW NAV*/
 
-.location-label{
-	text-transform: uppercase;
+.location-label a,.location-label a:visited,.location-label a:hover{
+text-transform: uppercase;
 color: #fff;
 position: relative;
-top: 16.66%;
+top: 60px;
 font-size: 1.3em;
 }

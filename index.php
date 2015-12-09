@@ -136,12 +136,9 @@ get_header(); ?>
 			</ul>
 		</div>
 	</div>
-	<div class="clearfix">
-		&nbsp;
-	</div>
 	<div id="location-5" class="location-item">
 		<div class="location-label">
-			S. America
+			<a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-america/">S. America</a>
 		</div>
 	<div class="location-text-content hidden">
 		<ul>
@@ -177,7 +174,7 @@ get_header(); ?>
 	</div>
 	<div id="location-6" class="location-item">
 		<div class="location-label">
-			Central America
+			<a href="http://amt-travel-insiders.ljohnsonsolutions.com/central-america/">Central America</a>
 		</div>
 	<div class="location-text-content hidden">
 		<ul>
@@ -219,7 +216,7 @@ get_header(); ?>
 	</div>
 	<div id="location-7" class="location-item">
 		<div class="location-label">
-			South Pacific
+			<a href="http://amt-travel-insiders.ljohnsonsolutions.com/south-pacific/">South Pacific</a>
 		</div>
 	<div class="location-text-content hidden">
 		<ul>
@@ -236,7 +233,7 @@ get_header(); ?>
 <div class="choose-location-div col-xs-12 col-sm-6 col-md-6 col-lg-3  text-center">
 	<div id="location-4" class="location-item">
 		<div class="location-label">
-			N. America
+			<a href="http://amt-travel-insiders.ljohnsonsolutions.com/north-america/">N. America</a>
 		</div>
 	<div class="location-text-content hidden">
 		<ul>
@@ -256,7 +253,7 @@ get_header(); ?>
 </div>
 	<div id="location-8" class="location-item">
 		<div class="location-label">
-			Islands
+			<a href="http://amt-travel-insiders.ljohnsonsolutions.com/caribbean">Islands</a>
 		</div>
 	<div class="location-text-content hidden">
 		<ul>
