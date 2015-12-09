@@ -8,7 +8,16 @@ $('#header-overlay-text2').fitText(1.5);
 $('.header-phone').fitText(2);
 $('.header-phone-bars').fitText();
 
+// $('.location-item').hover(
+// 		function(){$( this ).find( ".location-text-content" ).toggleClass('hidden');});
+//
+// $('.location-item').hover(
+// 		function(){$( this ).find( ".location-label" ).;});
+
 $('.location-item').hover(
-		function(){$( this ).find( "ul " ).toggleClass('hidden');});
+		function(){
+			$(this).find('.location-text-content').toggleClass('hidden');
+			$(this).find('.location-label').toggleClass('hidden');
+		});
 
 });

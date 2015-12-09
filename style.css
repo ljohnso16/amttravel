@@ -364,7 +364,7 @@ Media Queries
     padding-bottom: 35px;
 }
 .sol-header-overlay {
-		position: absolute;
+		/*position: absolute;*/
 		z-index: 10;
 		/*top: 06%;
 		left: 16%;*/
@@ -412,7 +412,7 @@ height:45px;
     padding-top: 51px;
 }
 	.sol-header-overlay {
-	    position: absolute;
+	    /*position: absolute;*/
 	    z-index: 10;
       /*margin-top: 5%;*/
 			margin-left:15%;
@@ -506,10 +506,8 @@ height:45px;
     padding-top: 51px;
 }
 	.sol-header-overlay {
-	    position: absolute;
 	    z-index: 10;
-
-			margin-left:15%;
+			margin-left:16%;
 	}
 
 
@@ -618,9 +616,9 @@ height:45px;
 	color: #D3D4D8;
 	}
 	.sol-header-overlay {
-		position: absolute;
+
 		z-index: 10;
-		margin-top:9%;
+		margin-top: 56px;
 		margin-left:17%;
 	}
 
@@ -647,6 +645,7 @@ ul#menu-second-navigation-bar {
       display: inline-block;
       float: none;
       vertical-align: top;
+			font-size:.8em;
   }
 
   .navbar .navbar-collapse {
@@ -682,9 +681,9 @@ height:45px;
 		font-size: 1.4em;
 	}
 	.sol-header-overlay {
-	    position: absolute;
+
 	    z-index: 10;
-	    margin-top: 5%;
+	    margin-top: 51px;
 	    margin-left: 16%;
 	}
 	.secondary-navbar.navbar.navbar-static-top.navbar-default{display:block;}
@@ -721,6 +720,29 @@ height:45px;
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+
+	.header-logo{
+	max-height: 136px;
+	width: 50%;
+	}
+	#header-overlay-text{
+	    /*position: relative;
+			top: 65px;*/
+	}
+
+	#header-overlay-text2{
+	    /*position: relative;
+		top: 30px;*/
+	}
+	.header-phone {
+	    /*margin-bottom: 37px;*/
+	    /*margin-top: 14px;*/
+	}
+
+
+	#call-phonenumber {
+		font-size: .9em !important;
+	}
 	.carousel-inner {
 			height: 400px;
 	}
@@ -742,7 +764,7 @@ display:none;
 width: 100%;
 }
 	.sol-container {
-    padding-top: 51px;
+    /*padding-top: 51px;*/
 }
 .header-social-icons{
 font-size: 3em;
@@ -762,9 +784,9 @@ height: 45px;
 }
 
 		.sol-header-overlay {
-		    position: absolute;
+
 		    z-index: 10;
-		    /*margin-top: 7%;*/
+		    margin-top: 83px;
 		    margin-left: 17.5%;
 		}
 	.secondary-navbar.navbar.navbar-static-top.navbar-default{display:block;}
@@ -817,14 +839,14 @@ height: 45px;
 	div#item-2 {
 	    margin-top: -225px;
 	}
-	div#item-3 {
+	/*div#item-3 {
 	    margin-top: -578px;
-	}
+	}*/
 	.header-logo{
 	max-height: 136px;
 	width: 50%;
 	}
-	#header-overlay-text{
+	/*#header-overlay-text{
 	    position: relative;
 		top: 65px;
 	}
@@ -832,6 +854,10 @@ height: 45px;
 	#header-overlay-text2{
 	    position: relative;
 		top: 30px;
+	}*/
+	.header-phone {
+	    /*margin-bottom: 37px;*/
+	    /*margin-top: 14px;*/
 	}
 .carousel-inner {
     height: 464px;
@@ -842,10 +868,7 @@ height: 45px;
 #call-phonenumber {
     display: inline-block;
 }
-.header-phone {
-    /*margin-bottom: 37px;*/
-    /*margin-top: 14px;*/
-}
+
 ul#menu-second-navigation-bar {
   font-size: .9em;
 }
@@ -874,7 +897,7 @@ height: 38px;
 	.sol-header-overlay {
 	    /*position: absolute;*/
 	    z-index: 10;
-    margin-top: 1%;
+    margin-top: 130px;
     margin-left: 16.5%;
 		top: -50px;
 
@@ -915,6 +938,20 @@ padding-bottom: 37px;
 	}
 
 }
+@media only screen and (min-width : 1530px) {
+	div#header-overlay-text{
+		position: relative;
+		top:50px;
+	}
+	.sol-header-overlay {
+	    z-index: 10;
+	    margin-top: 30px;
+	    margin-left: 16.5%;
+	}
+
+}
+
+
 #call-phonenumber{
 margin: 10px 56px 10px 10px;
     font-size: 1.2em;
@@ -1239,7 +1276,7 @@ color:#A5A5A5;
 }
 .sol-container{position: relative;	}
 .icon-line {
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     margin-bottom: 40px;
 }
 .item-pic{padding-bottom: 5px;}
@@ -1309,3 +1346,11 @@ margin:auto;
 .dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
 
 /*BOOTSTRAP OVERIDE ALOWING FOR 3RD ROW NAV*/
+
+.location-label{
+	text-transform: uppercase;
+color: #fff;
+position: relative;
+top: 16.66%;
+font-size: 1.3em;
+}
