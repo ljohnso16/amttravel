@@ -839,9 +839,10 @@ height: 45px;
 	div#item-2 {
 	    margin-top: -225px;
 	}
-	/*div#item-3 {
-	    margin-top: -578px;
-	}*/
+	div#item-3 img {
+
+    margin-top: -333px;
+	}
 	.header-logo{
 	max-height: 136px;
 	width: 50%;
@@ -1314,7 +1315,7 @@ color:#A5A5A5;
 	background: url('img/destination1.jpg') no-repeat center;
 }
 .location-text-content a,.location-text-content a:hover,.location-text-content a:visited {
-    color:#fff;
+    color:#000;
 		text-transform:capitalize;
 }
 .location-item{
@@ -1349,7 +1350,7 @@ margin:auto;
 
 .location-label a,.location-label a:visited,.location-label a:hover{
 text-transform: uppercase;
-color: #fff;
+color: #000;
 position: relative;
 top: 60px;
 font-size: 1.3em;
