@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
-
-AMT Travel Insiders
+AMT Travel
 ===
 
-This is a custom themed designed for AMT American Express Travel Weddings Division.
+This is a custom themed designed for AMT American Express Travel
