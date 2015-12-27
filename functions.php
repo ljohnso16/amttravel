@@ -1,13 +1,13 @@
 <?php
 /**
- * travel_insiders functions and definitions.
+ * amttravelwp functions and definitions.
  *
  * @link https://codex.wordpress.org/Functions_File_Explained
  *
- * @package travel_insiders
+ * @package amttravelwp
  */
 
-if ( ! function_exists( 'travel_insiders_setup' ) ) :
+if ( ! function_exists( 'amttravelwp_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -15,14 +15,14 @@ if ( ! function_exists( 'travel_insiders_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function travel_insiders_setup() {
+function amttravelwp_setup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on travel_insiders, use a find and replace
-	 * to change 'travel_insiders' to the name of your theme in all the template files
+	 * If you're building a theme based on amttravelwp, use a find and replace
+	 * to change 'amttravelwp' to the name of your theme in all the template files
 	 */
-	load_theme_textdomain( 'travel_insiders', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'amttravelwp', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -50,9 +50,9 @@ function travel_insiders_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 register_nav_menus( array(
-		'primary' => __( 'Primary Menu', 'travel_insiders' ),
-        'secondary' => __( 'Secondary Menu', 'travel_insiders' ),
-        'footer-menu' => __( 'Footer Explore Menu', 'travel_insiders' ),
+		'primary' => __( 'Primary Menu', 'amttravelwp' ),
+        'secondary' => __( 'Secondary Menu', 'amttravelwp' ),
+        'footer-menu' => __( 'Footer Explore Menu', 'amttravelwp' ),
 	) );
 
 	/*
@@ -80,13 +80,13 @@ register_nav_menus( array(
 	// ) );
 
 	// Set up the WordPress core custom background feature.
-	// add_theme_support( 'custom-background', apply_filters( 'travel_insiders_custom_background_args', array(
+	// add_theme_support( 'custom-background', apply_filters( 'amttravelwp_custom_background_args', array(
 	// 	'default-color' => 'ffffff',
 	// 	'default-image' => '',
 	// ) ) );
 }
-endif; // travel_insiders_setup
-add_action( 'after_setup_theme', 'travel_insiders_setup' );
+endif; // amttravelwp_setup
+add_action( 'after_setup_theme', 'amttravelwp_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -95,19 +95,19 @@ add_action( 'after_setup_theme', 'travel_insiders_setup' );
  *
  * @global int $content_width
  */
-function travel_insiders_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'travel_insiders_content_width', 640 );
+function amttravelwp_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'amttravelwp_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'travel_insiders_content_width', 0 );
+add_action( 'after_setup_theme', 'amttravelwp_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function travel_insiders_widgets_init() {
+function amttravelwp_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'travel_insiders' ),
+		'name'          => esc_html__( 'Sidebar', 'amttravelwp' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
 	'before_widget' => '<aside id="%1$s" class="text-center center-block widget %2$s">',
@@ -116,7 +116,7 @@ function travel_insiders_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 	register_sidebar( array(
-		'name'          => __( 'Footer Sidebar Left', 'travel_insiders' ),
+		'name'          => __( 'Footer Sidebar Left', 'amttravelwp' ),
 		'id'            => 'footer-left',
 		'description'   => '',
 		'before_widget' => '<div id="help-text">',
@@ -125,7 +125,7 @@ function travel_insiders_widgets_init() {
 		'after_title'   => '',
 	) );
 	register_sidebar( array(
-		'name'          => __( 'Footer Sidebar Right', 'travel_insiders' ),
+		'name'          => __( 'Footer Sidebar Right', 'amttravelwp' ),
 		'id'            => 'footer-sidebar-right',
 		'description'   => '',
 		'before_widget' => '',
@@ -134,7 +134,7 @@ function travel_insiders_widgets_init() {
 		'after_title'   => '',
 	) );
 	register_sidebar( array(
-		'name'          => __( 'Home Page', 'travel_insiders' ),
+		'name'          => __( 'Home Page', 'amttravelwp' ),
 		'id'                => 'home-sidebar-area',
 		'description'   => '',
 		'before_widget' => '',
@@ -143,7 +143,7 @@ function travel_insiders_widgets_init() {
 		'after_title'   => '',
 	) );
 	register_sidebar( array(
-		'name'          => __( 'Home Page Mobile', 'travel_insiders' ),
+		'name'          => __( 'Home Page Mobile', 'amttravelwp' ),
 		'id'                => 'home-sidebar-area-mobile',
 		'description'   => '',
 		'before_widget' => '',
@@ -152,29 +152,29 @@ function travel_insiders_widgets_init() {
 		'after_title'   => '',
 	) );
 }
-add_action( 'widgets_init', 'travel_insiders_widgets_init' );
+add_action( 'widgets_init', 'amttravelwp_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
-function travel_insiders_scripts() {
-	wp_enqueue_style( 'travel_insiders-style-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(),'3.0.3', 'all');
+function amttravelwp_scripts() {
+	wp_enqueue_style( 'amttravelwp-style-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(),'3.0.3', 'all');
 	// wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.min.css', array(), '4.4.0', 'all' );
-	wp_enqueue_style( 'travel_insiders-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'amttravelwp-style', get_stylesheet_uri() );
 
 
-	wp_enqueue_script( 'travel_insiders-js-bootstrap', get_template_directory_uri() . '/js/hacked-bootstrap.js', array('jquery'), '3.3.5', true );
-wp_enqueue_script( 'travel_insiders-js-bigtext', get_template_directory_uri() . '/js/jquery.fittext.js', array('jquery'), '1.2', true );
-wp_enqueue_script( 'travel_insiders-js-bigtext', get_template_directory_uri() . '/js/bigtext.js', array('jquery'), '1.2', true );
-	wp_enqueue_script( 'travel_insiders-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
-	// wp_enqueue_script( 'travel_insiders-js-fittext', get_template_directory_uri() . '/js/jquery.fittext.js', array('jquery'), '1.8', true );
-wp_enqueue_script( 'travel_insiders-js-script', get_template_directory_uri() . '/js/script.js', array('jquery'), '1.0', true );
+	wp_enqueue_script( 'amttravelwp-js-bootstrap', get_template_directory_uri() . '/js/hacked-bootstrap.js', array('jquery'), '3.3.5', true );
+wp_enqueue_script( 'amttravelwp-js-bigtext', get_template_directory_uri() . '/js/jquery.fittext.js', array('jquery'), '1.2', true );
+wp_enqueue_script( 'amttravelwp-js-bigtext', get_template_directory_uri() . '/js/bigtext.js', array('jquery'), '1.2', true );
+	wp_enqueue_script( 'amttravelwp-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	// wp_enqueue_script( 'amttravelwp-js-fittext', get_template_directory_uri() . '/js/jquery.fittext.js', array('jquery'), '1.8', true );
+wp_enqueue_script( 'amttravelwp-js-script', get_template_directory_uri() . '/js/script.js', array('jquery'), '1.0', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		//wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'travel_insiders_scripts' );
+add_action( 'wp_enqueue_scripts', 'amttravelwp_scripts' );
 function remove_img_attr ($html) {
     return preg_replace('/(alt|width|height)="\d+"\s/', "", $html);
 }

@@ -18,8 +18,8 @@ class mobile_wedding_registry_widget extends WP_Widget {
 	function __construct() {
 		parent::__construct(
 			'mobile_wedding_registry_widget', // Base ID
-			__('Mobile Wedding Registry Widget', 'travel_insiders'), // Name
-			array( 'description' => __( 'List of recent AMT Wedding Registries, in a Boot Strap carousel', 'travel_insiders' ), ) // Args
+			__('Mobile Wedding Registry Widget', 'amttravelwp'), // Name
+			array( 'description' => __( 'List of recent AMT Wedding Registries, in a Boot Strap carousel', 'amttravelwp' ), ) // Args
 		);
 	}
 	/**

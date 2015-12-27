@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package travel_insiders
+ * @package amttravelwp
  */
  $header_image = get_post_meta($post->ID, 'Continent Header Image', true);
 
@@ -21,13 +21,13 @@ if(!empty($header_image))echo '<img class="img-responsive" src="'.$header_image.
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'travel_insiders' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'amttravelwp' ),
 				'after'  => '</div>',
 			) );
 		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php edit_post_link( esc_html__( 'Edit', 'travel_insiders' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( esc_html__( 'Edit', 'amttravelwp' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

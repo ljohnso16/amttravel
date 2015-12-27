@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package travel_insiders
+ * @package amttravelwp
  */
 
 ?>
@@ -15,7 +15,7 @@
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php travel_insiders_posted_on(); ?>
+			<?php amttravelwp_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
@@ -25,7 +25,7 @@
 	</div><!-- .entry-summary -->
 
 	<footer class="entry-footer">
-		<?php travel_insiders_entry_footer(); ?>
+		<?php amttravelwp_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 

@@ -4,28 +4,28 @@
  *
  * @link https://jetpack.me/
  *
- * @package travel_insiders
+ * @package amttravelwp
  */
 
 /**
  * Add theme support for Infinite Scroll.
  * See: https://jetpack.me/support/infinite-scroll/
  */
-function travel_insiders_jetpack_setup() {
+function amttravelwp_jetpack_setup() {
 	add_theme_support( 'infinite-scroll', array(
 		'container' => 'main',
-		'render'    => 'travel_insiders_infinite_scroll_render',
+		'render'    => 'amttravelwp_infinite_scroll_render',
 		'footer'    => 'page',
 	) );
-} // end function travel_insiders_jetpack_setup
-add_action( 'after_setup_theme', 'travel_insiders_jetpack_setup' );
+} // end function amttravelwp_jetpack_setup
+add_action( 'after_setup_theme', 'amttravelwp_jetpack_setup' );
 
 /**
  * Custom render function for Infinite Scroll.
  */
-function travel_insiders_infinite_scroll_render() {
+function amttravelwp_infinite_scroll_render() {
 	while ( have_posts() ) {
 		the_post();
 		get_template_part( 'template-parts/content', get_post_format() );
 	}
-} // end function travel_insiders_infinite_scroll_render
+} // end function amttravelwp_infinite_scroll_render
