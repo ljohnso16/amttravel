@@ -360,6 +360,20 @@ Media Queries
 --------------------------------------------------------------*/
 /*Custom query to solve super small */
 @media only screen and (min-width : 100px) {
+	a:link.side-buttons,a:visited.side-buttons,a:active.side-buttons {
+	    width: 300px;
+			line-height: 60px;
+		  background-color: #2059E6;
+	    margin: 5px;
+			display: block;
+			border: 3px solid black;
+	    color: white;
+	    text-transform: uppercase;
+			font-style: italic;
+			font-weight: bold;
+			position: relative;
+	    left: 42.5%;
+		}
 .soliloquy-outer-container {
     padding-bottom: 35px;
 }
@@ -448,6 +462,20 @@ height:45px;
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
+	a:link.side-buttons,a:visited.side-buttons,a:active.side-buttons {
+	    width: 300px;
+			line-height: 60px;
+		  background-color: #2059E6;
+	    margin: 5px;
+			display: block;
+			border: 3px solid black;
+	    color: white;
+	    text-transform: uppercase;
+			font-style: italic;
+			font-weight: bold;
+			position: relative;
+	    left: 42.5%;
+		}
 	.header-logo{
 	max-height: 50px;
 	}
@@ -539,6 +567,20 @@ height:45px;
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
+	a:link.side-buttons,a:visited.side-buttons,a:active.side-buttons {
+	    width: 300px;
+			line-height: 60px;
+		  background-color: #2059E6;
+	    margin: 5px;
+			display: block;
+			border: 3px solid black;
+	    color: white;
+	    text-transform: uppercase;
+			font-style: italic;
+			font-weight: bold;
+			position: relative;
+	    left: 42.5%;
+		}
 	.carousel-inner {
 			height: 290px;
 	}
@@ -625,6 +667,19 @@ height:45px;
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+	a:link.side-buttons,a:visited.side-buttons,a:active.side-buttons {
+	    width: 300px;
+			line-height: 60px;
+		  background-color: #2059E6;
+	    margin: 5px;
+			display: block;
+			border: 3px solid black;
+	    color: white;
+	    text-transform: uppercase;
+			font-style: italic;
+			font-weight: bold;
+
+		}
 	.carousel-inner {
 			height: 280px;
 	}
@@ -720,7 +775,20 @@ height:45px;
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+	a:link.side-buttons,a:visited.side-buttons,a:active.side-buttons {
+	    width: 300px;
+			line-height: 60px;
+		  background-color: #2059E6;
+	    margin: 5px;
+			display: block;
+			border: 3px solid black;
+	    color: white;
+	    text-transform: uppercase;
+			font-style: italic;
+			font-weight: bold;
+			position: relative;
+	    left: 8%;
+		}
 	.header-logo{
 	max-height: 136px;
 	width: 50%;
@@ -830,9 +898,20 @@ height: 45px;
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
-
-
+	a:link.side-buttons,a:visited.side-buttons,a:active.side-buttons {
+	    width: 300px;
+			line-height: 60px;
+		  background-color: #2059E6;
+	    margin: 5px;
+			display: block;
+			border: 3px solid black;
+	    color: white;
+	    text-transform: uppercase;
+			font-style: italic;
+			font-weight: bold;
+			position: relative;
+			left: 8%;
+		}
 	div#item-1 {
 	    margin-top: -182px;
 	}
@@ -858,7 +937,7 @@ height: 45px;
 	}*/
 	.header-phone {
 	    /*margin-bottom: 37px;*/
-	    /*margin-top: 14px;*/
+	    padding-top: 25px;
 	}
 .carousel-inner {
     height: 464px;
@@ -940,13 +1019,27 @@ padding-bottom: 37px;
 
 }
 @media only screen and (min-width : 1530px) {
+	a:link.side-buttons,a:visited.side-buttons,a:active.side-buttons {
+	    width: 300px;
+			line-height: 60px;
+		  background-color: #2059E6;
+	    margin: 5px;
+			display: block;
+			border: 3px solid black;
+	    color: white;
+	    text-transform: uppercase;
+			font-style: italic;
+			font-weight: bold;
+			position: relative;
+	    left: 8%;
+			}
 	div#header-overlay-text{
 		position: relative;
 		top:50px;
 	}
 	.sol-header-overlay {
 	    z-index: 10;
-	    margin-top: 30px;
+	    margin-top: 90px;
 	    margin-left: 16.5%;
 	}
 
@@ -970,7 +1063,7 @@ color:#FFF;
 color:#FFF;
 }
 .choose-title,.entry-title,.honeymooners-hero-title,.home .page-title{
-	color:#004AF9;
+	color:#2059E6;
 font-family: verdana;
 font-weight:bolder;
 
@@ -1355,3 +1448,22 @@ position: relative;
 top: 60px;
 font-size: 1.3em;
 }
+/*a:link.Kachel
+    {
+        width: 200px;
+        line-height: 200px;
+        display: block;
+        text-align: center;
+        background: #383838;
+    }*/
+
+	ul.home-list {
+	    list-style: none;
+	}
+	.home-text{
+		color: #272B74;
+		font-weight: bold;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		font-style: italic;
+	}

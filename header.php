@@ -55,28 +55,24 @@
 	</nav>
 <div class="sol-container" >
 	<div class="sol-header-overlay text-center">
-						<div id="header-overlay-text" class="text-center ">Travel</div>
-						<div id="header-overlay-text2" class="text-center ">Insiders</div>
+					<div id="header-overlay-text" class="text-center ">American Express Travel</div>
 					<div class="header-phone"><hr class="header-phone-bars"/><div class="phone-text">800.999.2599</div><hr class="header-phone-bars"/></div>
-					<!-- <div class="text-center header-social-icons"><a href="https://www.facebook.com/Travelinsiders"><span class="icon-facebook2"></span></a><a href="https://twitter.com/AMT_Travel"><span class="icon-twitter2"></span></a><span class=" icon-google-plus2"></span></div> -->
-				<div class="amex-header-logo text-center"><img src="<?php echo get_template_directory_uri();?>/img/AMT-AmexLogo-min.png" alt="Header Logo" class="header-logo"></div>
+					<div class="amex-header-logo text-center"><img src="<?php echo get_template_directory_uri();?>/img/AMT-AmexLogo-min.png" alt="Header Logo" class="header-logo"></div>
 </div>
 <div id="topslider" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active" id="item-1">
-		<img src="<?php echo get_template_directory_uri();?>/img/header.jpg" alt="slide">
+		<img src="<?php echo get_template_directory_uri();?>/img/slide1.jpg" alt="slide">
     </div>
 
     <div class="item" id="item-2">
-		<img src="<?php echo get_template_directory_uri();?>/img/header2.jpg" alt="slide">
+		<img src="<?php echo get_template_directory_uri();?>/img/slide2.jpg" alt="slide">
     </div>
 
     <div class="item" id="item-3">
-		<img src="<?php echo get_template_directory_uri();?>/img/header3.jpg" alt="slide">
+		<img src="<?php echo get_template_directory_uri();?>/img/slide3.jpg" alt="slide">
     </div>
-
-
   </div>
 
   <!-- Left and right controls -->
