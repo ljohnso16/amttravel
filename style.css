@@ -434,19 +434,7 @@ height:45px;
 
 
 	.secondary-navbar.navbar.navbar-static-top.navbar-default{display:none;}
-		div#home-heroes-a
-		{
-			background-image: url('img/homepage-hero-a.jpg');
 
-		}
-		div#home-heroes-b
-		{
-			background-image: url('img/homepage-hero-b.jpg');
-		}
-		div#home-heroes-c
-		{
-			background-image: url('img/homepage-hero-c.jpg');
-		}
 
 		div.fixed-bg
 		{
@@ -474,7 +462,7 @@ height:45px;
 			font-style: italic;
 			font-weight: bold;
 			position: relative;
-	    left: 42.5%;
+	    left: 11%;
 		}
 	.header-logo{
 	max-height: 50px;
@@ -540,19 +528,7 @@ height:45px;
 
 
 	.secondary-navbar.navbar.navbar-static-top.navbar-default{display:none;}
-		div#home-heroes-a
-		{
-			background-image: url('img/homepage-hero-a.jpg');
 
-		}
-		div#home-heroes-b
-		{
-			background-image: url('img/homepage-hero-b.jpg');
-		}
-		div#home-heroes-c
-		{
-			background-image: url('img/homepage-hero-c.jpg');
-		}
 
 		div.fixed-bg
 		{
@@ -579,7 +555,7 @@ height:45px;
 			font-style: italic;
 			font-weight: bold;
 			position: relative;
-	    left: 42.5%;
+	    left: 22.5%;
 		}
 	.carousel-inner {
 			height: 290px;
@@ -595,19 +571,7 @@ height:45px;
     /*margin-bottom: 15px;*/
     /*margin-top: 14px;*/
 }
-		div#home-heroes-a
-		{
-			background-image: url('img/homepage-hero-a.jpg');
-			background-position:0px 0px;
-		}
-		div#home-heroes-b
-		{
-			background-image: url('img/homepage-hero-b.jpg');
-		}
-		div#home-heroes-c
-		{
-			background-image: url('img/homepage-hero-c.jpg');
-		}
+
 
 		div.fixed-bg
 		{
@@ -678,7 +642,8 @@ height:45px;
 	    text-transform: uppercase;
 			font-style: italic;
 			font-weight: bold;
-
+			position: relative;
+	    left: 27%;
 		}
 	.carousel-inner {
 			height: 280px;
@@ -742,21 +707,7 @@ height:45px;
 	    margin-left: 16%;
 	}
 	.secondary-navbar.navbar.navbar-static-top.navbar-default{display:block;}
-		div#home-heroes-a
-		{
-			background-image: url('img/homepage-hero-a.jpg');
-			background-position:0 -181px;
-		}
-		div#home-heroes-b
-		{
-			background-image: url('img/homepage-hero-b.jpg');
-			background-position:0 -193px;
-		}
-		div#home-heroes-c
-		{
-			background-image: url('img/homepage-hero-c.jpg');
-			background-position:0 -43px;
-		}
+
 
 		div.fixed-bg
 		{
@@ -787,7 +738,7 @@ height:45px;
 			font-style: italic;
 			font-weight: bold;
 			position: relative;
-	    left: 8%;
+	    left: 33%;
 		}
 	.header-logo{
 	max-height: 136px;
@@ -863,21 +814,7 @@ height: 45px;
 	font-size: 1.7em;
 	color: #D3D4D8;
 	}
-		div#home-heroes-a
-		{
-			background-image: url('img/homepage-hero-a.jpg');
-			background-position:0 -291px;
-		}
-		div#home-heroes-b
-		{
-			background-image: url('img/homepage-hero-b.jpg');
-			background-position:0 -321px;
-		}
-		div#home-heroes-c
-		{
-			background-image: url('img/homepage-hero-c.jpg');
-			background-position:0 -138px;
-		}
+
 
 		div.fixed-bg
 		{
@@ -910,7 +847,7 @@ height: 45px;
 			font-style: italic;
 			font-weight: bold;
 			position: relative;
-			left: 8%;
+			left: 36%;
 		}
 	div#item-1 {
 	    margin-top: -182px;
@@ -991,21 +928,7 @@ height: 38px;
 font-size: 3em;
 padding-bottom: 37px;
 }
-		div#home-heroes-a
-		{
-			background-image: url('img/homepage-hero-a.jpg');
-			background-position:0 -555px;
-		}
-		div#home-heroes-b
-		{
-			background-image: url('img/homepage-hero-b.jpg');
-			background-position:0 -777px;
-		}
-		div#home-heroes-c
-		{
-			background-image: url('img/homepage-hero-c.jpg');
-			background-position:0 -189px;
-		}
+
 
 	div.fixed-bg
 	{
@@ -1031,7 +954,7 @@ padding-bottom: 37px;
 			font-style: italic;
 			font-weight: bold;
 			position: relative;
-	    left: 8%;
+	    left: 12%;
 			}
 	div#header-overlay-text{
 		position: relative;
@@ -1383,30 +1306,6 @@ color:#A5A5A5;
     max-width: 620px;
     font-size: 1.2em;
 }
-#location-1 {
-	background: url('img/destination2.jpg') no-repeat center;
-}
-#location-2 {
-	background: url('img/destination3.jpg') no-repeat center;
-}
-#location-3 {
-	background: url('img/destination5.jpg') no-repeat center;
-}
-#location-4 {
-	background: url('img/destination6.jpg') no-repeat center;
-}
-#location-5 {
-	background: url('img/destination8.jpg') no-repeat center;
-}
-#location-6 {
-	background: url('img/destination4.jpg') no-repeat center;
-}
-#location-7 {
-	background: url('img/destination7.jpg') no-repeat center;
-}
-#location-8 {
-	background: url('img/destination1.jpg') no-repeat center;
-}
 .location-text-content a,.location-text-content a:hover,.location-text-content a:visited {
     color:#000;
 		text-transform:capitalize;
@@ -1466,4 +1365,14 @@ font-size: 1.3em;
 		font-size: 1.2em;
 		text-transform: uppercase;
 		font-style: italic;
+		max-width: 480px;
+		margin:auto;
 	}
+	.hidden-side-buttons {
+	    width: 300px;
+			line-height: 60px;
+		  background-color: white;
+	    margin: 5px;
+			display: block;
+	    color: white;
+		}

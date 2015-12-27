@@ -19,8 +19,10 @@ get_header(); ?>
 			<header class="col-md-12 col-lg-12 text-center">
 				<h1 class="home page-title screen-reader-text" id="home-title">AMT, an American Express Travel Representative</h1>
 			</header>
-
-			<div class="col-md-2 col-lg-2 col-md-offset-3 col-lg-offset-3 text-center">
+			<div class="col-md-2 col-lg-2 col-lg-offset-2">
+				<a href="#" class="hidden-side-buttons">&nbsp;</a>
+			</div>
+			<div class="col-md-2 col-lg-2">
 					<p>
 						AMT, an American Express Travel Representative is proud to bring you our new, full featured travel website that offers great deals to many destinations around the world, plus the protection of American Express Travel, the largest seller of travel in the world. Whether your plans call for a cruise, ground tour, luxury vacation, or any type of trip, AMT, an American Express Travel Representative has the expertise and experience to make you excursion spectacular.
 					</p>
@@ -35,7 +37,7 @@ get_header(); ?>
 						For experienced travelers interested in the cruise experience of a lifetime, try the American Express Grand Mariner Club. No matter which amazing Grand Voyage cruise you book with AMT, an American Express Travel Representative, when you cruise with the Mariner Club, you’re guaranteed a range of additional travel-related offers and amenities, including a $100 statement credit when you pay with your American Express® Card on qualifying cruises and vacations. This AMT, an American Express Travel Representative site is full of so many hot deals and specials to so many travel destinations, we can’t possibly list every cruise, tour, or vacation. If you don’t see the travel combination you are looking for, give us a call on our reservation hotline and we'll find it for you.
 					</p>
 			</div>
-			<div class="col-md-3 col-lg-3 text-center center-block">
+			<div class="col-md-3 col-lg-3">
 				<a href="" class="side-buttons text-center">AMT Vacations</a><br>
 				<a href="" class="side-buttons">Why American Express</a><br>
 				<a href="" class="side-buttons">Honeymoons</a><br>
@@ -43,7 +45,7 @@ get_header(); ?>
 				<a href="" class="side-buttons">Quick Quotes</a><br>
 				<a href="" class="side-buttons">Destination Magazine</a>
 				<p>
-					<img src="<?php echo get_template_directory_uri();?>/img/travel-mag-mock-min.jpg">
+					<img src="<?php echo get_template_directory_uri();?>/img/travel-mag-mock-min.jpg" alt="Travel Magazine">
 				</p>
 				<p class="home-text">
 					Call us for details now
@@ -52,10 +54,11 @@ get_header(); ?>
 					1-800-999-2599
 				</p>
 				<p>
-					<img src="<?php echo get_template_directory_uri();?>/img/iata-logos-min.jpg">
+					<img src="<?php echo get_template_directory_uri();?>/img/iata-logos-min.jpg" alt="iata">
 				</p>
 			</div>
-			<div class="col-md-12 col-lg-12 text-center">
+
+			<div class="col-md-12 col-lg-12 text-center hidden-xs hidden-sm">
 				<p class="home-text">For all travel emergencies, please contact the 24 hour free hotline in your travel voucher
 Office hours: Monday through Friday 9:00 AM to 5:30 PM Pacific Time 800-999-2599</p>
 			</div>
