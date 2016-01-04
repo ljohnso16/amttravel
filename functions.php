@@ -16,6 +16,9 @@ if ( ! function_exists( 'amttravelwp_setup' ) ) :
  * as indicating support for post thumbnails.
  */
 function amttravelwp_setup() {
+
+	remove_filter ('the_content',  'wpautop');
+remove_filter ('comment_text', 'wpautop');
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.

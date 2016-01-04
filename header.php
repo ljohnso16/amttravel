@@ -8,8 +8,8 @@
  *
  * @package amttravelwp
  */
-
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -23,22 +23,15 @@
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header">
 	<nav id="primary-menu">
-		<div class="primenav navbar navbar-static-top navbar-default navbar-fixed-top">
+		<div class="primenav navbar navbar-default">
 				<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
-				<div class="navbar-header">
-					<button type="button" class="pull-left navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
 
-				<div class="navbar-collapse collapse navbar-responsive-collapse">
+				<div class="prim-nav navbar-collapse collapse navbar-responsive-collapse">
 					<?php
 					wp_nav_menu( array(
 							'menu'              => 'primary',
 							'theme_location'    => 'primary',
-							'depth'             => 3,
+							'depth'             => 2,
 							'container'         => '',
 							'container_class'   => '',
 							'menu_class'        => 'nav navbar-nav navbar-left',
@@ -61,7 +54,7 @@
 </div>
 <div id="topslider" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+  <div class="header-slider carousel-inner" role="listbox">
     <div class="item active" id="item-1">
 		<img src="<?php echo get_template_directory_uri();?>/img/slide1.jpg" alt="slide">
     </div>
@@ -95,9 +88,15 @@
 	<nav>
 		<div class="secondary-navbar navbar navbar-static-top navbar-default">
 				<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
-				<div class="navbar-header"></div>
+				<div class="navbar-header">
+					<button type="button" class="pull-left navbar-toggle" data-toggle="collapse" data-target="#sec-nav">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
 
-				<div class="seconnd-nav navbar-collapse collapse navbar-responsive-collapse">
+				<div id="sec-nav" class="seconnd-nav navbar-collapse collapse navbar-responsive-collapse ">
 					<?php
 
 					$args = array(
@@ -118,4 +117,4 @@
 		</div>
 	</nav>
 	</header><!-- #masthead -->
-	<div id="content" class="site-content">
+	<div id="content" class="site-content <?php if( is_home() ) { echo 'crazy-header';} ?>">
